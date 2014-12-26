@@ -86,5 +86,4 @@ test:
 production:
   <<: *default
   database: watchacat-test_production
-  username: watchacat-test
-  password: <%= ENV['WATCHACAT-TEST_DATABASE_PASSWORD'] %>
+
