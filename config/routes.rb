@@ -2,10 +2,10 @@ Rails.application.routes.draw do
   devise_for :users
   get 'home/landing_page'
 
-  get 'pages/info'
+  # get 'pages/info'
 
   root :to => redirect('/home/landing_page')
-  resources :ideas
+  # resources :ideas
 
 
   # The priority is based upon order of creation: first created -> highest priority.
