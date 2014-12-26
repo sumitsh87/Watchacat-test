@@ -73,9 +73,7 @@ nav {
     border-radius: 40px; 
     opacity: .4; 
     cursor: pointer;}
-    nav: hover {
-    opacity: .6;
-}
+
  
 .next-icon {
     display: block;
